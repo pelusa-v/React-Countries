@@ -1,0 +1,26 @@
+.Home__container {
+    display: flex;
+    min-height: calc(100vh - 73.42px);
+    align-items: center;
+    justify-content: center;
+}
+
+.Home__searchLogo {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.Home__all {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Home__allLink {
+    text-decoration: none;
+    font-size: 20px;
+    color: #0d6efd;
+}

@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+
+  node:
+    container_name: countries
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - 3100:3000
